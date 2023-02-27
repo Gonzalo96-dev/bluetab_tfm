@@ -5,6 +5,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 from tensorflow.keras import preprocessing
+import pandas
 
 
 def preprocess_image(im_path):
