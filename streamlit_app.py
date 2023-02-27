@@ -1,8 +1,8 @@
+import cv2
+import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
 import tensorflow as tf
-import cv2
 from PIL import Image
 from tensorflow.keras import preprocessing
 
