@@ -9,7 +9,7 @@ from tensorflow.keras import preprocessing
 
 """def preprocess_image(im_path):
     im = cv2.imread(im_path, cv2.IMREAD_UNCHANGED)
-    if im is None:
+    if im is None: 
         print("La imagen no se ha leido correctamente: ", im_path)
         return None
 
