@@ -1,16 +1,13 @@
+import streamlit as st
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-import streamlit as st
 import tensorflow as tf
-import tensorflow_hub as hub
-from tensorflow.keras import preprocessing
 from PIL import Image
+from tensorflow.keras import preprocessing
 
 
-
-
-def preprocess_image(im_path):
+"""def preprocess_image(im_path):
     im = cv2.imread(im_path, cv2.IMREAD_UNCHANGED)
     if im is None:
         print("La imagen no se ha leido correctamente: ", im_path)
@@ -21,7 +18,7 @@ def preprocess_image(im_path):
     im = cv2.resize(im, (IMG_WIDTH, IM_HEIGHT))
     return im
 
-
+"""
 def predict(im):
     model = model
     test_image = preprocess_image(image)
